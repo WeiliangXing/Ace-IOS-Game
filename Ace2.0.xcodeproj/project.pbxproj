@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		E17901A81950AAB900CFF072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17901A71950AAB900CFF072 /* AppDelegate.swift */; };
 		E17901AB1950AAB900CFF072 /* Ace2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E17901A91950AAB900CFF072 /* Ace2_0.xcdatamodeld */; };
-		E17901AD1950AAB900CFF072 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17901AC1950AAB900CFF072 /* ViewController.swift */; };
-		E17901B01950AAB900CFF072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17901AE1950AAB900CFF072 /* Main.storyboard */; };
-		E17901B21950AAB900CFF072 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17901B11950AAB900CFF072 /* Images.xcassets */; };
 		E17901BE1950AAB900CFF072 /* Ace2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17901BD1950AAB900CFF072 /* Ace2_0Tests.swift */; };
+		E17901CE1950AB0800CFF072 /* AccountCreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17901C71950AB0800CFF072 /* AccountCreateController.swift */; };
+		E17901CF1950AB0800CFF072 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17901C81950AB0800CFF072 /* AccountManager.swift */; };
+		E17901D01950AB0800CFF072 /* AccountRegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17901C91950AB0800CFF072 /* AccountRegisterController.swift */; };
+		E17901D11950AB0800CFF072 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17901CA1950AB0800CFF072 /* AudioController.swift */; };
+		E17901D21950AB0800CFF072 /* MainLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17901CB1950AB0800CFF072 /* MainLoginViewController.swift */; };
+		E17901D31950AB0800CFF072 /* manu_bgmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E17901CC1950AB0800CFF072 /* manu_bgmusic.mp3 */; };
+		E17901D41950AB0800CFF072 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17901CD1950AB0800CFF072 /* ProfileController.swift */; };
+		E17901D81950ABC500CFF072 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17901D71950ABC500CFF072 /* Images.xcassets */; };
+		E17901DE1950AEFD00CFF072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17901DD1950AEFD00CFF072 /* Main.storyboard */; };
+		E17901E01950B04E00CFF072 /* PortraitCreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17901DF1950B04E00CFF072 /* PortraitCreateController.swift */; };
+		E18B242119578097001CADE7 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E18B242019578097001CADE7 /* FacebookSDK.framework */; };
+		E1DC28451959BD8600E6F641 /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC28441959BD8600E6F641 /* MemberViewController.swift */; };
+		E1DC2847195A618700E6F641 /* GuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC2846195A618700E6F641 /* GuestViewController.swift */; };
+		E1EA282A19579A0700190807 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EA282919579A0700190807 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +37,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1447B631950FA8A00FD6AE4 /* Ace2.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ace2.0-Bridging-Header.h"; sourceTree = "<group>"; };
 		E17901A21950AAB900CFF072 /* Ace2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ace2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17901A61950AAB900CFF072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E17901A71950AAB900CFF072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E17901AA1950AAB900CFF072 /* Ace2_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ace2_0.xcdatamodel; sourceTree = "<group>"; };
-		E17901AC1950AAB900CFF072 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E17901AF1950AAB900CFF072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E17901B11950AAB900CFF072 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E17901B71950AAB900CFF072 /* Ace2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ace2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17901BC1950AAB900CFF072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E17901BD1950AAB900CFF072 /* Ace2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ace2_0Tests.swift; sourceTree = "<group>"; };
+		E17901C71950AB0800CFF072 /* AccountCreateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCreateController.swift; sourceTree = "<group>"; };
+		E17901C81950AB0800CFF072 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		E17901C91950AB0800CFF072 /* AccountRegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountRegisterController.swift; sourceTree = "<group>"; };
+		E17901CA1950AB0800CFF072 /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		E17901CB1950AB0800CFF072 /* MainLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLoginViewController.swift; sourceTree = "<group>"; };
+		E17901CC1950AB0800CFF072 /* manu_bgmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = manu_bgmusic.mp3; sourceTree = "<group>"; };
+		E17901CD1950AB0800CFF072 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		E17901D71950ABC500CFF072 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E17901DD1950AEFD00CFF072 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E17901DF1950B04E00CFF072 /* PortraitCreateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitCreateController.swift; sourceTree = "<group>"; };
+		E18B242019578097001CADE7 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		E1A61AA61957D2630099281D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		E1DC28441959BD8600E6F641 /* MemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
+		E1DC2846195A618700E6F641 /* GuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestViewController.swift; sourceTree = "<group>"; };
+		E1EA282919579A0700190807 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18B242119578097001CADE7 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +84,7 @@
 		E17901991950AAB900CFF072 = {
 			isa = PBXGroup;
 			children = (
+				E1A61AA61957D2630099281D /* MyPlayground.playground */,
 				E17901A41950AAB900CFF072 /* Ace2.0 */,
 				E17901BA1950AAB900CFF072 /* Ace2.0Tests */,
 				E17901A31950AAB900CFF072 /* Products */,
@@ -77,11 +103,23 @@
 		E17901A41950AAB900CFF072 /* Ace2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				E18B242019578097001CADE7 /* FacebookSDK.framework */,
+				E17901D91950AC7300CFF072 /* sounds */,
 				E17901A71950AAB900CFF072 /* AppDelegate.swift */,
-				E17901AC1950AAB900CFF072 /* ViewController.swift */,
-				E17901AE1950AAB900CFF072 /* Main.storyboard */,
-				E17901B11950AAB900CFF072 /* Images.xcassets */,
+				E17901C71950AB0800CFF072 /* AccountCreateController.swift */,
+				E17901C81950AB0800CFF072 /* AccountManager.swift */,
+				E1DC2846195A618700E6F641 /* GuestViewController.swift */,
+				E1EA282919579A0700190807 /* LoginViewController.swift */,
+				E17901DD1950AEFD00CFF072 /* Main.storyboard */,
+				E1DC28441959BD8600E6F641 /* MemberViewController.swift */,
+				E17901C91950AB0800CFF072 /* AccountRegisterController.swift */,
+				E17901CB1950AB0800CFF072 /* MainLoginViewController.swift */,
+				E17901CA1950AB0800CFF072 /* AudioController.swift */,
+				E17901DF1950B04E00CFF072 /* PortraitCreateController.swift */,
+				E17901CD1950AB0800CFF072 /* ProfileController.swift */,
 				E17901A91950AAB900CFF072 /* Ace2_0.xcdatamodeld */,
+				E1447B631950FA8A00FD6AE4 /* Ace2.0-Bridging-Header.h */,
+				E17901D71950ABC500CFF072 /* Images.xcassets */,
 				E17901A51950AAB900CFF072 /* Supporting Files */,
 			);
 			path = Ace2.0;
@@ -110,6 +148,14 @@
 				E17901BC1950AAB900CFF072 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E17901D91950AC7300CFF072 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E17901CC1950AB0800CFF072 /* manu_bgmusic.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E17901B01950AAB900CFF072 /* Main.storyboard in Resources */,
-				E17901B21950AAB900CFF072 /* Images.xcassets in Resources */,
+				E17901DE1950AEFD00CFF072 /* Main.storyboard in Resources */,
+				E17901D81950ABC500CFF072 /* Images.xcassets in Resources */,
+				E17901D31950AB0800CFF072 /* manu_bgmusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +258,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E17901AD1950AAB900CFF072 /* ViewController.swift in Sources */,
+				E1DC28451959BD8600E6F641 /* MemberViewController.swift in Sources */,
 				E17901A81950AAB900CFF072 /* AppDelegate.swift in Sources */,
 				E17901AB1950AAB900CFF072 /* Ace2_0.xcdatamodeld in Sources */,
+				E17901CE1950AB0800CFF072 /* AccountCreateController.swift in Sources */,
+				E17901CF1950AB0800CFF072 /* AccountManager.swift in Sources */,
+				E17901D21950AB0800CFF072 /* MainLoginViewController.swift in Sources */,
+				E17901D11950AB0800CFF072 /* AudioController.swift in Sources */,
+				E1DC2847195A618700E6F641 /* GuestViewController.swift in Sources */,
+				E17901D01950AB0800CFF072 /* AccountRegisterController.swift in Sources */,
+				E17901D41950AB0800CFF072 /* ProfileController.swift in Sources */,
+				E1EA282A19579A0700190807 /* LoginViewController.swift in Sources */,
+				E17901E01950B04E00CFF072 /* PortraitCreateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,17 +290,6 @@
 			targetProxy = E17901B81950AAB900CFF072 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E17901AE1950AAB900CFF072 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E17901AF1950AAB900CFF072 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E17901BF1950AAB900CFF072 /* Debug */ = {
@@ -329,9 +374,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ace2.0",
+				);
 				INFOPLIST_FILE = Ace2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ace2.0/Ace2.0-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -340,9 +392,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ace2.0",
+				);
 				INFOPLIST_FILE = Ace2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ace2.0/Ace2.0-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -401,6 +459,7 @@
 				E17901C31950AAB900CFF072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E17901C41950AAB900CFF072 /* Build configuration list for PBXNativeTarget "Ace2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +468,7 @@
 				E17901C61950AAB900CFF072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

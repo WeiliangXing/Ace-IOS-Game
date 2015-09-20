@@ -130,6 +130,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
         return urls[urls.endIndex-1] as NSURL
     }
+    
+    // func for facebook login application
+    //https://developers.facebook.com/docs/ios/getting-started/
+    //https://gist.github.com/iaserrat/4765b0f3532dfe87986e
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: NSString?, annotation: AnyObject) -> Bool {
+        var wasHandled:Bool = FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+        return wasHandled
+    }
 
 }
 

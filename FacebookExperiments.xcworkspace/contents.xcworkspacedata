@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../../../Documents/FacebookSDK/Samples/SwitchUserSample/SwitchUserSample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Documents/FacebookSDK/Samples/SessionLoginSample/SessionLoginSample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Documents/FacebookSDK/Samples/Scrumptious/Scrumptious.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Documents/FacebookSDK/Samples/RPSSample/RPSSample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Documents/FacebookSDK/Samples/ProfilePictureSample/ProfilePictureSample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Documents/FacebookSDK/Samples/PlacePickerSample/PlacePickerSample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Documents/FacebookSDK/Samples/HelloFacebookSample/HelloFacebookSample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Documents/FacebookSDK/Samples/GraphApiSample/GraphApiSample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Documents/FacebookSDK/Samples/FriendPickerSample/FriendPickerSample.xcodeproj">
+   </FileRef>
+</Workspace>
